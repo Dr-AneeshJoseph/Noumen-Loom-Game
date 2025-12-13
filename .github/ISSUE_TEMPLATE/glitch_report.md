@@ -24,3 +24,6 @@ Did the shield hit 0% but the game didn't end? Did the AI start apologizing like
 ```text
 (Paste your input here)
 
+📺 Visual Artifacts
+(Upload screenshots of the HUD or the specific error message here)
+End Transmission.
