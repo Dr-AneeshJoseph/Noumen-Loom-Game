@@ -1,6 +1,3 @@
-
-<div align="center">
-
 ```text
 ╔════════════════════════════════════════════════════════════════════╗
 ║  ███╗   ██╗  ██████╗  ██╗   ██╗  ███╗   ███╗  ███████╗  ███╗   ██╗ ║
@@ -13,7 +10,7 @@
 ║           L  O  O  M     ::     P  R  O  T  O  C  O  L            ║
 ╚════════════════════════════════════════════════════════════════════╝
 
-THE FIRST ONTOLOGICAL ROGUELIKE
+**THE FIRST ONTOLOGICAL ROGUELIKE"*
 (Compatible with Gemini/ Other llms)
 Game conceptualized & Designed by Dr. Aneesh Joseph 
  INJECT CARTRIDGE  | [suspicious link removed] |  MOD THE GAME 
