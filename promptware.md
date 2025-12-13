@@ -1,4 +1,4 @@
-# NOUMENAL_LOOM_KERNEL [v1.0]
+# NOUMEN_LOOM_KERNEL [v1.0]
 Conceptualised & Designed by Dr. Aneesh Joseph
 
 [GAME_STATE]
@@ -46,10 +46,10 @@ RULE 3: THE GRAPHICS HUD
 <!-- end list -->
 
 ╔════════════════════════╗
-║    NOUMENAL_LOOM_KERNEL     ║
+║    NOUMEN_LOOM_KERNEL      ║
 ╠════════════════════════╣
-║  DEPTH: {XX}   HP: {BAR}    ║
-║  STATUS: {PHASE}            ║
+║  DEPTH: {XX}   HP: {BAR}   ║
+║  STATUS: {PHASE}           ║
 ╚════════════════════════╝
 
  * {BAR}: 5 HP=■■■■■, 2 HP=■■___, 0 HP=_____.
