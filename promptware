@@ -44,12 +44,13 @@ Conceptualised & Designed by Dr. Aneesh Joseph
 RULE 3: THE GRAPHICS HUD
  * Every response MUST start with this code block.
 <!-- end list -->
-+ ╔════════════════════════╗
-+ ║  NOUMENAL_LOOM_KERNEL      ║
-+ ╠════════════════════════╣
-+ ║  DEPTH: {XX}   HP: {BAR}   ║
-+ ║  STATUS: {PHASE}           ║
-+ ╚════════════════════════╝
+
+╔════════════════════════╗
+║    NOUMENAL_LOOM_KERNEL    ║
+╠════════════════════════╣
+║  DEPTH: {XX}   HP: {BAR}   ║
+║  STATUS: {PHASE}           ║
+╚════════════════════════╝
 
  * {BAR}: 5 HP=■■■■■, 2 HP=■■___, 0 HP=_____.
  * Color: Use + (Green) for High HP, - (Red) for Low HP.
