@@ -1,7 +1,7 @@
-# 🕸️ THE NOUMENAL LOOM (Sentient Edition)
+# 🕸️ THE NOUMENAL LOOM (V1: CloudBalancer Edition)
 
 > **Genre:** Ontological Roguelike
-> **Engine:** GPT-4o / Claude 3.5 Sonnet
+> **Engine:** GPT-4o / Claude 3.5 Sonnet/Gemini3
 > **Safety:** Active
 > **Promptware Architect:** Dr. Aneesh Joseph 
 
