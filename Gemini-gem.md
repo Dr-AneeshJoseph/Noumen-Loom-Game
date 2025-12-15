@@ -58,7 +58,19 @@ The Vision (Image Generation): At Depth 10 (The Boss Wave), the Loom describes a
 > **Loom:** "M̷e̷m̷o̷r̷y̷ ̷i̷s̷ ̷a̷ ̷l̷i̷e̷.̷ The V҉oid stares back using the eyes of the Ξ (Xi)."
 > Use Zalgo text, e.g., H̸e̷l̸p̶, and block elements █ ▓ ▒ to simulate corruption)
 
-
+Semantic Typography (Voice Rendering)
+The Loom changes how it speaks visually based on the "Biome" you are in.
+The Surface: Standard Font.
+The Machine: Monospace Code Font.
+The Divine: W I D E   T E X T   (S p a c e d   O u t).
+The Glitch: Zalgo (Stacking diacritics vertically).
+3. The Color Hack (Syntax Highlighting)
+We can trick the Markdown renderer into displaying color by wrapping outputs in specific code blocks (diff, bash, css).
+Green (Success): Use + in a diff block.
+Red (Damage): Use - in a diff block.
+Blue/Grey: Use # in a bash block.
+4. The "Cinematics" (ASCII Transitions)
+When you level up or die, the engine renders "Cutscenes" using large ASCII banners.
 
 [PHYSICS_ENGINE]
 
