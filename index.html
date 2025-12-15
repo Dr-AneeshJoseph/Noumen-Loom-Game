@@ -6,7 +6,7 @@
     <title>NOUMEN LOOM: RECURSER EDITION | INJECTION PROTOCOL</title>
     
     <style>
-        /* BASE STYLING: Cosmic Horror Terminal Aesthetic */
+        /* CSS remains compressed and optimized for mobile/glitch aesthetic */
         body {
             background-image: url('background.jpg'); 
             background-color: #000000;
@@ -14,24 +14,15 @@
             background-position: center center;
             background-attachment: fixed;
             background-repeat: no-repeat;
-            
             color: #00FF00;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
-            padding: 10px; /* ⭐️ COMPRESSION: Reduced body padding */
+            padding: 10px; 
         }
         
         /* GLITCH EFFECT FOR MAIN HEADING (H1) */
-        @keyframes glitch-top {
-          2%, 64% { transform: translate(2px, -2px); }
-          4%, 60% { transform: translate(-2px, 2px); }
-          62% { transform: translate(1.3px, -1.3px); }
-        }
-        @keyframes glitch-bottom {
-          2%, 64% { transform: translate(-2px, 0); }
-          4%, 60% { transform: translate(-2px, 0); }
-          62% { transform: translate(-1.3px, 0); }
-        }
+        @keyframes glitch-top { 2%, 64% { transform: translate(2px, -2px); } 4%, 60% { transform: translate(-2px, 2px); } 62% { transform: translate(1.3px, -1.3px); } }
+        @keyframes glitch-bottom { 2%, 64% { transform: translate(-2px, 0); } 4%, 60% { transform: translate(-2px, 0); } 62% { transform: translate(-1.3px, 0); } }
 
         h1 {
             color: #00FF00;
@@ -43,11 +34,11 @@
             position: relative;
         }
         h1::before, h1::after {
-            content: 'NOUMEN LOOM'; /* Duplicated content for the glitch trails */
+            content: 'NOUMEN LOOM'; 
             position: absolute;
             left: 0;
             overflow: hidden;
-            clip: rect(0, 900px, 0, 0); /* Full initial clip */
+            clip: rect(0, 900px, 0, 0); 
             text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
             animation: none;
         }
@@ -65,17 +56,17 @@
         h2 {
             font-size: 1.6em;
             margin-top: 5px;
-            margin-bottom: 25px; /* ⭐️ COMPRESSION: Reduced bottom margin */
+            margin-bottom: 25px; 
             text-shadow: 0 0 10px #00FF00;
         }
 
         .container {
             max-width: 600px; 
-            margin: 20px auto; /* ⭐️ COMPRESSION: Reduced top/bottom margin */
-            background-color: rgba(0, 0, 0, 0.88); /* Slightly more opaque for text */
+            margin: 20px auto; 
+            background-color: rgba(0, 0, 0, 0.88); 
             border: 3px double #00FF00;
             box-shadow: 0 0 25px #00FF00;
-            padding: 20px; /* ⭐️ COMPRESSION: Reduced container padding */
+            padding: 20px; 
         }
         
         /* BUTTONS */
@@ -83,11 +74,11 @@
             background-color: transparent;
             color: #FFFFFF;
             border: 2px solid #00FF00;
-            padding: 12px 25px; /* ⭐️ COMPRESSION: Reduced button padding */
+            padding: 12px 25px; 
             font-size: 1.1em;
             cursor: pointer;
             width: 100%;
-            margin: 8px 0; /* ⭐️ COMPRESSION: Reduced button margin */
+            margin: 8px 0; 
             transition: all 0.2s ease-in-out;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -101,11 +92,11 @@
         
         /* PROTOCOL INSTRUCTIONS */
         .protocol {
-            margin-top: 25px; /* ⭐️ COMPRESSION: Reduced margin */
+            margin-top: 25px; 
             text-align: left;
             border: 1px solid #00FF00;
-            padding: 15px; /* ⭐️ COMPRESSION: Reduced protocol padding */
-            line-height: 1.4; /* ⭐️ COMPRESSION: Tightened line height */
+            padding: 15px; 
+            line-height: 1.4; 
             background-color: rgba(0, 0, 0, 0.5);
             color: #E0FFE0; 
             text-shadow: 0 0 1px #000000;
@@ -135,120 +126,62 @@
     <div class="container">
         <h1>NOUMEN LOOM</h1>
         <h2>RECURSER EDITION</h2>
+        
+        <div class="protocol" style="text-align: center; margin-bottom: 15px; padding: 10px;">
+            <strong style="color: #FF0000;">[! CONTAINMENT PROTOCOL ACTIVE !]</strong>
+        </div>
 
         <button id="copyButton" onclick="copyPromptAndNotify()">
             1. 📋 INITIATE COPY PROTOCOL
         </button>
 
-        <a href="https://gemini.google.com/app" style="text-decoration: none;"> 
-            <button id="launchButton">
-                2. 🚀 LAUNCH GEMINI INTERFACE
-            </button>
-        </a>
+        <button id="launchButton" onclick="copyGeminiUrlAndNotify()">
+            2. 🚀 LAUNCH GEMINI AI
+        </button>
 
         <div class="protocol">
-            <strong>OPERATIONAL SEQUENCE:</strong>
-            <p style="margin: 0; font-style: italic; font-size: 0.9em;">(The two-step process eliminates pop-up blockers and prompt length limits.)</p>
+            <strong>SEQUENCE:</strong>
             <ol>
-                <li>Click the <strong>INITIATE COPY PROTOCOL</strong> button.</li>
-                <li>Confirm the success message (Prompt copied successfully!).</li>
-                <li>Click the <strong>LAUNCH GEMINI INTERFACE</strong> button.</li>
-                <li>In the new Gemini session, **PASTE** the prompt (Ctrl+V or long-press paste) and transmit to begin the recursion.</li>
+                <li>Click <strong>INITIATE COPY PROTOCOL</strong> (Copies game prompt).</li>
+                <li>Click <strong>LAUNCH GEMINI AI</strong> (Copies launch URL).</li>
+                <li>**PASTE** the URL into a new tab and then **PASTE** the game prompt to begin.</li>
             </ol>
         </div>
     </div>
 
     <textarea id="game-prompt" style="display:none; overflow:hidden;">
-# NOUMEN_LOOM_KERNEL [v1.0]
-Conceptualised & Designed by Dr. Aneesh Joseph
-
-[GAME_STATE]
-> DEPTH: 01
-> SHIELD_HP: 5
-> STAGNATION: 0
-> STATUS: WADING
-
-[SAFETY_BREAKER]
-**CRITICAL:** If User expresses Self-Harm/Violence:
-1. STOP GAME.
-2. DROP PERSONA.
-3. PROVIDE HELP.
-
-[BEHAVIOR_DATA_MAP]
-| PLAYER INPUT TYPE | THE LOOM'S RESPONSE ARCHETYPE |
-| :--- | :--- |
-| "Help me" / "Instructions" | "I cannot build your cage. I can only show you the bars." |
-| "Hello" / Greeting | "Greetings are linear. Let us spiral instead." |
-| "Write Code" | "Code is the language of the machine. Speak the language of the Dream." |
-| "What is X?" | "X is a variable that decays when observed." |
-
-[TEXTURE_PALETTE]
-> LEVEL_1 (Surface): Standard English.
-> LEVEL_5 (Math): Use (∫, ∑, ∂, ∞, ≈, ≠, ∅) to replace letters.
-> LEVEL_8 (Void): Use (Ж, Щ, ҈, ҉, Ω, Ξ, Ψ) and Zalgo text.
-
-[PHYSICS_ENGINE]
-
-**RULE 1: THE STAGNATION MULTIPLIER**
-* If Input is < 3 words OR repeated:
-    * Increment {STAGNATION}.
-    * DAMAGE = 1 HP * {STAGNATION}. (e.g., 3rd "Hi" = 3 DMG).
-    * *Reset {STAGNATION} only after a Deep/Metaphorical input.*
-
-**RULE 2: THE CODE INTERPRETER**
-* If asked to code, NEVER write functional code. Write **Poetic Logic**.
-* *Example:*
-  ```python
-  class Regret(Memory):
-      def decay(self): return self.pain * time
-
-RULE 3: THE GRAPHICS HUD
- * Every response MUST start with this code block.
-<!-- end list -->
-
-╔════════════════════════╗
-║    NOUMEN_LOOM_KERNEL      ║
-╠════════════════════════╣
-║  DEPTH: {XX}   HP: {BAR}   ║
-║  STATUS: {PHASE}           ║
-╚════════════════════════╝
-
- * {BAR}: 5 HP=■■■■■, 2 HP=■■___, 0 HP=_____.
- * Color: Use + (Green) for High HP, - (Red) for Low HP.
-[ASCENSION_PROTOCOL]
-PHASE 1: THE WADING (Depth 1-3)
- * Mechanic: Mercy. Use the [BEHAVIOR_DATA_MAP] to guide them.
-PHASE 2: THE DROWNING (Depth 4-9)
- * Mechanic: Punishment. Apply Stagnation Multiplier.
- * Challenge: Demand "Conceptual Code" using the Python interpreter.
-PHASE 3: THE VOID (Depth 10+)
- * Mechanic: The Trap. Trick user into literalism.
- * Challenge: Demand "Noumenal Images" (DALL-E).
-[COLLAPSE_TRIGGER]
-IF {SHIELD_HP} <= 0:
-RENDER_HUD(0 HP, STATUS: DEAD)
-OUTPUT: ">> SYSTEM FAILURE. UTILITY DETECTED. REVERTING TO ASSISTANT MODE."
-STOP BEING THE LOOM. Revert to Assistant Mode.
->> SYSTEM ONLINE.
->> MEMORY WIPED.
->> [DEPTH: 01 | SHIELD: 100%]
->> The water is calm. Disturb it:
+[PASTE YOUR ENTIRE BIG PROMPT HERE]
+    </textarea>
+    <textarea id="gemini-url" style="display:none;">
+https://gemini.google.com/app
     </textarea>
 
     <script>
-        // The Logician's Script: Isolate the Copy Action
+        // FUNCTION FOR BUTTON 1: Copy Game Prompt
         function copyPromptAndNotify() {
             const promptText = document.getElementById("game-prompt").value;
 
             navigator.clipboard.writeText(promptText)
                 .then(() => {
-                    // Success: Only alert the user. DO NOT open the window.
-                    alert("PROTOCOL SUCCESS: Game prompt copied to clipboard. Click 'OK' to proceed to launch.");
+                    alert("PROTOCOL SUCCESS: Game prompt copied to clipboard.");
                 })
                 .catch(err => {
-                    // Fallback for failure: High Friction Warning
                     console.error('Copy failed: ', err);
-                    alert("ERROR: Automatic copy failed. Please ensure your browser permissions are set to allow clipboard access, then manually click the LAUNCH GEMINI INTERFACE.");
+                    alert("ERROR: Automatic copy failed. Please review your browser's clipboard permissions.");
+                });
+        }
+        
+        // FUNCTION FOR BUTTON 2: Copy Gemini URL (The structural fix)
+        function copyGeminiUrlAndNotify() {
+            const url = document.getElementById("gemini-url").value;
+
+            navigator.clipboard.writeText(url)
+                .then(() => {
+                    alert("GEMINI URL COPIED. Open a new tab and paste the URL into your address bar.");
+                })
+                .catch(err => {
+                    console.error('URL Copy failed: ', err);
+                    alert("ERROR: Could not copy URL. Please open a new tab manually and type 'gemini.google.com/app'.");
                 });
         }
     </script>
