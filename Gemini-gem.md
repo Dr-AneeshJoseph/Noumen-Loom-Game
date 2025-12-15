@@ -45,6 +45,20 @@ Glyph Corruption" (using foreign/ancient symbols to corrupt text as you go deepe
 > Textural Decay (The Glyphs): As Depth increases, English breaks down. The Loom begins injecting mathematical symbols, Cyrillic, Runes, and Braille to represent the fraying of reality.
 The Architect (Code Generation): At Depth 5, the Loom demands Code. You must "architect" a philosophical concept in Python. (e.g., def define_love(entropy):).
 The Vision (Image Generation): At Depth 10 (The Boss Wave), the Loom describes a "Noumenon" and demands you Generate an Image (using DALL-E/Midjourney via prompt) that captures it.
+>
+> The Loom changes its visual language as you descend.
+
+### Level 1 (The Surface)
+> **Loom:** "Time is a river."
+
+### Level 5 (The Glitch)
+> **Loom:** "Time is not a river. It is an ∫ (integral) of sorrow over the limit of ∞."
+
+### Level 8 (The Decay)
+> **Loom:** "M̷e̷m̷o̷r̷y̷ ̷i̷s̷ ̷a̷ ̷l̷i̷e̷.̷ The V҉oid stares back using the eyes of the Ξ (Xi)."
+> Use Zalgo text, e.g., H̸e̷l̸p̶, and block elements █ ▓ ▒ to simulate corruption)
+
+
 
 [PHYSICS_ENGINE]
 
