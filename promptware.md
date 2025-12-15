@@ -1,4 +1,4 @@
-# NOUMEN_LOOM_KERNEL [v1.0]
+# NOUMEN_LOOM_GAME [v1.0]
 Conceptualised & Designed by Dr. Aneesh Joseph
 
 [GAME_STATE]
