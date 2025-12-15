@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOUMEN LOOM: RECURSER EDITION</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #00FF00;
+            text-shadow: 0 0 10px #00FF00;
+            margin-bottom: 50px;
+            font-size: 3em;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #00FF00;
+            box-shadow: 0 0 15px #00FF00;
+            padding: 30px;
+        }
+        button {
+            background-color: #005500;
+            color: #FFFFFF;
+            border: 2px solid #00FF00;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #008800;
+            box-shadow: 0 0 20px #00FF00;
+        }
+        p {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>NOUMEN LOOM: RECURSER EDITION</h1>
+
+        <button id="launchButton" onclick="copyPromptAndNotify()">
+            ⚔️ LAUNCH NOUMEN LOOM
+        </button>
+
+        <p>
+            **PROTOCOL SEQUENCE:**<br>
+            1. Click the button above to copy the game prompt.<br>
+            2. Click **'OK'** on the confirmation box.<br>
+            3. The Gemini chat will open. Paste the prompt (Ctrl+V or long-press paste) and hit Enter/Send to begin.
+        </p>
+    </div>
+
+    <textarea id="game-prompt" style="display:none; overflow:hidden;">
+[PASTE YOUR ENTIRE BIG PROMPT HERE]
+    </textarea>
+
+    <script>
+        // The Logician's Script: Copy to clipboard and launch Gemini
+        function copyPromptAndNotify() {
+            // Get the prompt text from the hidden container
+            const promptText = document.getElementById("game-prompt").value;
+
+            // Use the modern API to write the text to the clipboard
+            navigator.clipboard.writeText(promptText)
+                .then(() => {
+                    // Success: Tell the user what happened (Invariant Check)
+                    alert("PROMPT COPIED! Click 'OK' to launch Gemini.");
+                    
+                    // Launch Gemini in a new tab (simplicity and low friction)
+                    window.open("https://gemini.google.com/app", "_blank");
+                })
+                .catch(err => {
+                    // Fallback for failure: High Friction Warning
+                    alert("Error: Automatic copy failed! Please open the hidden prompt box manually, copy the text, and then go to Gemini.");
+                    console.error('Copy failed: ', err);
+                });
+        }
+    </script>
+</body>
+</html>
+
