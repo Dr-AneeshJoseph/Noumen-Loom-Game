@@ -36,6 +36,7 @@ You must feed the Loom profound, surreal, or metaphorical inputs to maintain the
 The Objective
 Each input you give will be warped by AetherMind into a surreal philosophical challenge. You have to hold onto human creativity and meabing to save the loom from crashing.
 
+As you win eaxh level, the loom will become stronger and make meaning threads, contextual weaves and telekinetic capsukes. rach lebel will be held in a different setting. it eill asks riddles and challenges. you and aethermind will compete gor each artefact. The adversary who gets the artefact will get new strengths. wuth each level, AetherMind will absorb the looms radiation to become mote sentient. in the final level, you have to battle yhe superintelligent AetherMind for cloudbalancer, the ultikate container to lock aethermind and convert the loom into a perpetual engine.
 
 The HUD (Heads-Up Display)
 Every turn, the Loom renders your status using a terminal interface.
